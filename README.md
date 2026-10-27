@@ -8,7 +8,7 @@
 
 ## About This Repository
 
-Repository ini dibuat untuk memenuhi Tugas 2 Machine Learning berupa code reproduction dan theoretical deep-dive berdasarkan buku:
+Repository ini dibuat untuk memenuhi Tugas 2 Machine Learning berupa *code reproduction* dan *theoretical deep-dive* berdasarkan buku:
 
 **scikit-learn Cookbook, Third Edition**  
 **Author:** John Sukup
@@ -90,35 +90,38 @@ Notebook: `Chapter_7/Chapter_7_SVM_Kernel_Methods.ipynb`
 
 ### Chapter 8 — Tree-Based Algorithms and Ensemble Methods
 
-Membahas Decision Tree, Random Forest, Gradient Boosting, feature importance, dan tuning hyperparameter model berbasis pohon.
+Membahas Decision Tree, Random Forest, bagging, Gradient Boosting, tuning hyperparameter, dan feature importance.
 
 Notebook: `Chapter_8/Chapter_8_Tree_Ensemble_Methods.ipynb`
 
 ---
 
-## Repository Structure
+### Chapter 9 — Text Processing and Multiclass Classification
 
-```text
-scikit-learn-Cookbook/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── README_Chapter_6-8.md  # Akan dihapus
-├── Chapter_1/
-│   └── Chapter_1_Common_Conventions.ipynb
-├── Chapter_2/
-│   └── Chapter_2_Pre_Model_Workflow.ipynb
-├── Chapter_3/
-│   └── Chapter_3_Dimensionality_Reduction.ipynb
-├── Chapter_4/
-│   └── Chapter_4_Nearest_Neighbors.ipynb
-├── Chapter_5/
-│   └── Chapter_5_Linear_Models.ipynb
-├── Chapter_6/
-│   └── Chapter_6_Advanced_Logistic_Regression.ipynb
-├── Chapter_7/
-│   └── Chapter_7_SVM_Kernel_Methods.ipynb
-└── Chapter_8/
-    └── Chapter_8_Tree_Ensemble_Methods.ipynb
-```
+Membahas representasi teks menjadi fitur numerik menggunakan CountVectorizer dan TF-IDF, serta penerapan Pipeline dan Logistic Regression untuk klasifikasi teks multikelas.
 
+Notebook: `Chapter_9/Chapter_9_Text_Processing_Multiclass_Classification.ipynb`
+
+---
+
+### Chapter 10 — Clustering Techniques
+
+Membahas unsupervised learning melalui K-Means, hierarchical clustering, dan DBSCAN, termasuk evaluasi cluster menggunakan silhouette score.
+
+Notebook: `Chapter_10/Chapter_10_Clustering_Techniques.ipynb`
+
+---
+
+### Chapter 11 — Novelty and Outlier Detection
+
+Membahas deteksi anomali dan observasi menyimpang menggunakan Isolation Forest, Local Outlier Factor (LOF), dan One-Class SVM.
+
+Notebook: `Chapter_11/Chapter_11_Novelty_Outlier_Detection.ipynb`
+
+---
+
+### Chapter 12 — Cross-Validation and Model Evaluation Techniques
+
+Membahas train/test split, cross-validation, Stratified K-Fold, evaluasi menggunakan accuracy, precision, recall, F1-score, ROC-AUC, dan pencegahan data leakage.
+
+Notebook: `Chapter
